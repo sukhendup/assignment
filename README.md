@@ -26,7 +26,7 @@ Before you can run the project, you need to install its dependencies. Follow the
 ```bash
 npm install
 ```
-###Run the Project
+### Run the Project
 To start the project in development mode, run the following command:
 ```bash
 npm run dev
