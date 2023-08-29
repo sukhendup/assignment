@@ -17,6 +17,17 @@ Make sure you have the following software installed on your system:
 
 ```bash
 git clone git@github.com:sukhendup/assignment.git
-cd assignment
+cd assignment 
+```
+### Install Dependencies
+
+Before you can run the project, you need to install its dependencies. Follow these steps:
+
+```bash
 npm install
+```
+###Run the Project
+To start the project in development mode, run the following command:
+```bash
 npm run dev
+```
