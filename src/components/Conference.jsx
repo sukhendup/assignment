@@ -24,7 +24,7 @@ const Conference = () => {
       shadow-md shadow-white">: CONFERENCE PAGE :</div>
     </div>
     
-    <div className= "flex flex-wrap justify-evenly flex-row gap-3 bg-slate-800">
+    <div className= "flex flex-wrap content-center flex-col md:flex-row md:justify-evenly gap-3 bg-slate-800">
       {data.map((i) => <Card
         key={i.id}
         title ={i.title}
