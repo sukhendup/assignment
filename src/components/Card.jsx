@@ -45,7 +45,7 @@ const Card = (
           alt="Image failed to load"
         />
         <span className="flex flex-col">
-          <span className="text-[10px] font-black text-gray-900 text-lg">{orgname}</span>
+          <span className="font-black text-gray-900 text-sm">{orgname}</span>
         </span>
       </div>
     </div>
