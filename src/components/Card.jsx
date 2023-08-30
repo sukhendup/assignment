@@ -11,7 +11,7 @@ const Card = (
     vencity,
     vencntry} = props) => {
   return (
-    <div className="flex w-1/3 flex-col items-center rounded-md border mx-2 my-2 bg-gray-400 shadow-2xl hover:shadow-slate-500">
+    <div className="flex w-1/2 flex-col items-center rounded-md border mx-2 my-2 md:w-1/3 bg-gray-400 shadow-2xl hover:shadow-slate-500">
       <div className="h-full w-full">
         <img
           src={img}
