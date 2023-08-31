@@ -30,7 +30,7 @@ const Conference = () => {
 
     return (
         <>
-            <div className="h-32 flex flex-row justify-evenly items-center bg-gray-500 font-mono">
+            <div className="h-32 flex flex-col gap-3 justify-evenly items-center bg-gray-500 font-mono md:flex-row">
                 <div
                     className=" font-black text-3xl text-white border-4 p-4 rounded-full
       shadow-md shadow-white"
